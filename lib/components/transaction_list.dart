@@ -15,13 +15,13 @@ class TransactionList extends StatelessWidget {
       margin: const EdgeInsets.only(top: 10),
       child: _transactions.isEmpty
           ? Column(children: <Widget>[
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Text("Nenhuma transação cadastrada!",
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.secondary,
                     fontWeight: FontWeight.bold,
                   )),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Container(
                 height: 200,
                 child: Image.asset(
